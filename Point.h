@@ -9,10 +9,10 @@ class Point {
         Point(int X, int Y)
         {
             this->X = X, this->Y = Y;
-            cout << "constructing..." << endl;
+            cout << "Point constructing..." << endl;
         }
         ~Point()
         {
-            cout << "destructing..." << endl;
+            cout << "Point destructing..." << endl;
         }
 };
